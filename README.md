@@ -1,4 +1,4 @@
-#Automation Code
+# Automation Code
 
 This code uses a unique machine learning method known as active learning. This method can be used when there is a cost in terms of time or money to label
 samples for a machine learning model. This method is designed to produce an accurate model while minimizing the number of samples that are needed to label
