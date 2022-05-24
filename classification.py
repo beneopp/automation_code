@@ -45,7 +45,7 @@ def calculate_initial_obs_ind(unobserved_array):
     initial_obs_ind = random.sample(range(len(unobserved_array)), 5)
 
     y = unobserved_array[initial_obs_ind, 2]
-    while np.all(y == 0) or np.all(y == 1)  or np.all(y == 0):
+    while np.all(y == 0) or np.all(y == 1):
         initial_obs_ind = random.sample(range(len(unobserved_array)), 5)
         y = unobserved_array[initial_obs_ind, 2]
 
