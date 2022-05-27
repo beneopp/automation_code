@@ -13,6 +13,6 @@ In order to test the performance of an active learning strategy, a simulation us
 
 The scripts can be summarized as follows:
 
-- uncertainty.py - uses the uncertainty method. In this case K-nearest Neighbors method was used for the model and the next sample had the highest variance of the K-nearest neighbors.
+- uncertainty.py - uses the uncertainty method. In this case, K-nearest Neighbors method was used for the model. The next sample had the highest variance of the K-nearest neighbors.
 - cv.py - performs cross-validation of data
 - classification.py - executes the program
