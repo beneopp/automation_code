@@ -1,8 +1,8 @@
 # Summary of Active Learning
 
-This code uses a unique machine learning method known as active learning. Active learning consists of strategies which minimize the number of samples that need to be labeled in order to optimize accuracy. This method is most useful when there is a cost in time or money to label samples for a machine learning model. Some of the active learning strategies include the following below. These strategies can be combined or used separately. 
+This code uses a unique machine learning method known as active learning. Active learning consists of strategies which minimize the number of samples that need to be labeled in order to optimize accuracy. This method is most useful when there is a cost in time or money to label samples. Some of the active learning strategies include the following. These strategies can be combined or used separately. 
 
-1. Uncertainty - the next sample is the sample the model is least certain about
+1. Uncertainty - choose the next sample that the model is least certain about
 2. Density - choose the sample that is most representative of unlabeled samples
 3. Query by Committee - choose the sample that has the largest disagreement between a committee of models
 
